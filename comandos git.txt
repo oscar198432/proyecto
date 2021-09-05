@@ -1,0 +1,194 @@
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~
+$ git --version
+git version 2.31.1.windows.1
+
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT
+$ git config --global user.name "Oscar"
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT
+$ git config --global user.email "oorangelt@misena.edu.co"
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT
+$ mkdir myproject
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT
+$ cd myproject
+
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (master)
+$ git remote add https://github.com/oscar198432/proyecto.git
+
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject
+$ git init
+Initialized empty Git repository in C:/Users/Oscar Rangel/Documents/TOOLKID/HERRAMIENTAS_GIT/myproject/.git/
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ touch index.html
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ ls
+index.html
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ git status
+On branch master
+
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ git add index.html
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ git status
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ touch ejemploGit2.html
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ git add --all
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ git status
+On branch master
+
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ git commit -m "Primer commit en git hola mundo"
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ git status --short
+ M index.html
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ git commit -a -m "Actualizado index.html con una nueva linea"
+
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ git log
+
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ git commit -help
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/TOOLKID/HERRAMIENTAS_GIT/myproject (master)
+$ git help --all
+
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/toolkid
+$ cd herramentas_git
+bash: cd: herramentas_git: No such file or directory
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/toolkid
+$ cd HERRAMIENTAS_GIT
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/toolkid/HERRAMIENTAS_GIT
+$ cd myproject
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/toolkid/HERRAMIENTAS_GIT/myproject (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/toolkid/HERRAMIENTAS_GIT/myproject (master)
+$ git branch hello-world-images
+
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/documents/toolkid/HERRAMIENTAS_GIT/myproject (master)
+$
+
+//////////////////////////////////////////////////////////////////////
+
+RAMAS
+
+$ git  branch
+  hello-world-images
+* master
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (master)
+$ git checkout hello-world-images
+
+git branch
+
+git checkout hello-world-images
+
+(agrego imagen a archivo segunda rama
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (hello-world-images)
+$ git add --all
+
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (hello-world-images)
+$ git status
+
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (hello-world-images)
+$ git commit -m "Commit 003 agregada imagen a Hola Mundo"
+
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (hello-world-images)
+$ git status
+On branch hello-world-images
+nothing to commit, working tree clean
+
+//cambiar de rama
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (hello-world-images)
+$ git checkout master
+
+
+//RAMA 3 DE EMERGENCIA
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (master)
+$ git checkout -b emergency-fix
+Switched to a new branch 'emergency-fix'
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (emergency-fix)
+git status
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (emergency-fix)
+$ git add index.html
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (emergency-fix)
+$ git commit -m "Actualizado index.html en la rama 3 emergencia"
+
+
+
+//FUSIONAR RAMAS GIT
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (emergency-fix)
+$ git checkout master
+
+//fusionar
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (master)
+$ git merge emergency-fix
+
+//borrada rama 3 de emergencia despues de la funsion
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (master)
+$ git branch -d emergency-fix
+Deleted branch emergency-fix (was 60d5aac).
+
+
+
+
+//REPOSITORIO REMOTO EN GITHUB
+
+git remote add origin https://github.com/oscar198432/proyecto.git
+git branch -M main
+git push -u origin main
+
+
+//EXTRAER HISTORIAL DE GITHUB
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (main)
+$ git fetch origin
+
+git log origin/master
+
+git diff origin/master
+
+git merge origin/master
+
+
+//git pull para actualizar nuestro git local
+git pull origin
+
+
