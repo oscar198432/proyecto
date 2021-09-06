@@ -191,4 +191,50 @@ git merge origin/master
 //git pull para actualizar nuestro git local
 git pull origin
 
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (main)
+$ git commit -a -m "Actualizado index.html nuevo h2"
+
+$git pull status
+
+
+//EMPUJAR CAMBIOS A GITHUB
+$git push origin
+
+
+//EXTRAER (pull) RAMAS DESDE GITHUB REMOTO
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (main)
+$ git pull
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (main)
+$ git branch
+* main
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (main)
+$ git branch -a
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (main)
+$ git checkout html-skeleton
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (html-skeleton)
+$ git pull
+Already up to date.
+
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (html-skeleton)
+$ git branch
+* html-skeleton
+  main
+
+
+//EMPUJAR (push) RAMA DESDE GITHUB
+
+//crear rama nueva en git
+Oscar Rangel@DESKTOP-ELA2IE4 MINGW64 ~/Documents/TOOLKID/HERRAMIENTAS_GIT/proyecto (html-skeleton)
+$ git checkout -b update-readme
+Switched to a new branch 'update-readme'
+
+$git add
+$git status
+
+
+
 
